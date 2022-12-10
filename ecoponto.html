@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="pt-br" dir="ltr">
+
+<head>
+   <meta charset="utf-8">
+   <title>Guardiões do Meio Ambiente</title>
+<link rel="stylesheet" href="ecoponto.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+   <link rel="stylesheet" href="script.js">
+</head>
+
+<body>
+   <header>
+    <img src="logoprojeto.png" width=180>
+    
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+<div id="menu">
+   <ul>
+      <li><a href="sobrenos.html">Sobre Nós</a></li>
+   <li><a href="galeria.html">Galeria de Fotos</a></li>
+   <li><a href="dica.html">Dica</a></li>
+   <li><a href="horarios.html">Encontre seu Ecoponto</a></li>
+   <li><a href="contato.html">Contato</a></li>
+   <li><a href="formulario.html"> Colabore com a pesquisa</a></li>
+  </ul>
+    </div>
+     
+</header>
+ <p id="titulo"> Locais de Eco Pontos</p>
+ <p id="texto">
+   A cidade de Guaíba possui Eco Pontos para cada Bairro. Confira abaixo os Eco Pontos que seu bairro possui.</p>
+  
+ <p>Bairro:<id="botao">
+   <select id="mapa" aria-label="Selecione">
+      <option value="selecione" selected>Selecione</option>
+      <option value="alegria" id="alegria">Alegria</option>
+      <option value="alvorada">Alvorada</option>
+      <option value="centro">Centro</option>
+      <option value="columbia_city">Columbia City</option>
+      <option value="coronel_nassuca">Coronel Nassuca</option>
+      <option value="ermo">Ermo</option>
+      <option value="florida">Florida</option>
+      <option value="industrial_guaiba">Industrial Guaíba</option>
+      <option value="jardim_dos_lagos">Jardim dos Lagos</option>
+      <option value="moradas_da_colina">Moradas da Colina</option>
+      <option value="parque_35">Parque 35</option>
+      <option value="passo_fundo">Passo Fundo</option>
+      <option value="pedras_brancas">Pedras Brancas</option>
+      <option value="santa_rita">Santa Rita</option>
+      <option value="sao_francisco">São Francisco</option>
+      <option value="vila_iolanda">Vila Iolanda</option>
+     </select>
+  <input type="button" value="Pesquisar" onclick="mapa()">
+  <p id="mapinha"></p>
+</body>
+</html>
